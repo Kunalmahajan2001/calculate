@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="display"></div>
+    <button onclick="repeat">click now</button>
+    
+
+    <SCript>
+        let quotes =[
+            "ABC",
+            "PPE",
+            "LETD",
+            "DHIRU",
+            "ksuks"
+
+        ]
+
+        function repeat()
+        {
+            let store = document.getElementById('display');
+
+            let newquotes = Math.floor(Math.random()*quotes.length)
+
+            store.innerHTML = quotes[newquote];
+        }
+
+        setInterval(repeat,1000)
+
+  </SCript>
+
+  
+</body>
+</html>
